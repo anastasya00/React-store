@@ -1,0 +1,13 @@
+.cart-item {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.cart-item_title {
+    width: 100px;
+}
+
+.cart-item__delete-icon {
+    margin-left: 10px;
+}

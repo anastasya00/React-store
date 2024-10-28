@@ -1,0 +1,14 @@
+.cart-menu {
+    position: absolute;
+    top: 30px;
+    left: -380px;
+    background-color: rgb(36, 37, 41);
+    width: 400px;
+    padding: 10px 20px;
+    z-index: 2;
+    border-radius: 15px;
+}
+
+.cart-menu__total-price {
+    margin: 60px 0 20px 0;
+}

@@ -1,0 +1,33 @@
+.product-item {
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(36, 37, 41);
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.product-item:not(:last-child) {
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+.product-item_title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.product-item_details {
+    padding: 30px 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.product-item_buy {
+    position: absolute;
+    left: 20px;
+    bottom: 40px;
+}
