@@ -9,6 +9,7 @@ import { HomePage } from "../../pages/home-page";
 import { CartPage } from "../../pages/cart-page";
 import { store } from "../../redux";
 import { Header } from "../../components/header";
+import { SHOP_ROUTE, BASKET_ROUTE } from "../consts";
 import './AppRouter.css';
 
 export const AppRouter = () => {
@@ -18,8 +19,8 @@ export const AppRouter = () => {
         <div className="AppRouter">
           <Header></Header>
           <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/cart" element={<CartPage />} />
+            <Route path={SHOP_ROUTE} element={<HomePage />} />
+            <Route path={BASKET_ROUTE} element={<CartPage />} />
           </Routes>
         </div>
       </Router>
