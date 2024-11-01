@@ -13,13 +13,6 @@ code {
     monospace;
 }
 
-.App {
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: 0 40px;
-  color: white;
-}
-
 a {
   color: white;
   text-decoration: none;
